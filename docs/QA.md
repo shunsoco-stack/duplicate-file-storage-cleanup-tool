@@ -111,7 +111,7 @@ Passとする条件:
 | Report Export | Pass | CSV headerを照合、JSONをparse、15 plan itemsを確認 |
 | Browser error | Pass | Console error 0、page error 0、request failure 0 |
 | Mobile | Pass | 390 × 844で `scrollWidth === clientWidth === 390`、Mobile Navigation開閉成功 |
-| Vercel | Pass | Deployment `dpl_65UXXUnYizhv7sdEWyrtr6kpWSyU`、target production、status Ready |
+| Vercel | Pass | 最終Deployment `dpl_BUfQATLcko7P7ZdNL4mvwiiXVXuP`、target production、status Ready |
 | Runtime error log | Pass | 公開後1時間を `--level error` で照会し、静的Projectのため該当log 0件 |
 
 実ファイル相当のfixture 4件もProductionの複数File Selectへ入力しました。
@@ -350,5 +350,5 @@ Vercel公開後に次を確認します。
 - [x] スクリーンショット5枚をProductionから取得
 - [x] Working treeとGit履歴のGitleaks結果を内容レビュー
 - [x] Vercel Productionの外部アクセスとREADY状態を確認
-- [ ] GitHub Public repositoryとrelease commitを確認
+- [x] GitHub Public repository、default branch `main`、release commit一致を確認
 - [x] URL placeholderをProduction / GitHubの実URLへ置換
