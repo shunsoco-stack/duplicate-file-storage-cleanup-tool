@@ -1,0 +1,1 @@
+This is a different file used to verify that equal-looking names alone are not grouped.

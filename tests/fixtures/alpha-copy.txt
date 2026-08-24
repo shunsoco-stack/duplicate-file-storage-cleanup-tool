@@ -1,0 +1,2 @@
+Local-first duplicate fixture.
+This content is intentionally identical.
