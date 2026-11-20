@@ -651,7 +651,7 @@ export default function StorageWorkbench() {
             <div>
               <p className="eyebrow">SCAN INPUT</p>
               <h2 id="input-title">フォルダを選択、またはここへドロップ</h2>
-              <p>読取権限はこの処理中だけ使用します。ファイル内容を保存・送信しません。</p>
+              <p>読取権限はこの処理中だけ使用します。ファイル内容を保存したり、外部サーバーへ送信したりすることはありません。本番ページ末尾の広告配信（忍者AdMax）は、ファイル内容とは無関係です。</p>
             </div>
             <div className="drop-zone__actions">
               <button className="button button--primary" type="button" onClick={handleDirectoryPick}>

@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 
 import "./globals.css";
+import { LegalFooter } from "@/components/legal-footer";
 
 const APP_NAME = "重複ファイル検出・ストレージ整理ツール";
 
@@ -55,6 +56,7 @@ export default function RootLayout({
           メインコンテンツへ移動
         </a>
         {children}
+        <LegalFooter />
       </body>
     </html>
   );
